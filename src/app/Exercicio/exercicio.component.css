@@ -1,0 +1,11 @@
+#tabela{
+    width: 250px;
+    height: 250px;  
+    position: relative;
+}
+.div img{
+    float: right;
+    width: 100px; 
+    display: flex;
+    margin-top: 0px;
+}
