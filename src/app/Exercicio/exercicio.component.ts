@@ -7,5 +7,16 @@ import { Component } from '@angular/core'; @Component({
 
 
 export class ExercicioComponent { 
-    framework="Angular";
+    nome:string;
+
+    alterarNome(event): void{
+        console.log(event.target.value);
+        this.nome=event.target.value;
+      }
+
+    adicionar(nome):void{
+        console.log(nome);
+        this.nome =nome;
+        
+    }
 }
